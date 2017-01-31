@@ -31,5 +31,6 @@ public class SplashActivity extends Activity {
             }
         };
         timer.start();
+        /*Test Again*/
 	}
 }
