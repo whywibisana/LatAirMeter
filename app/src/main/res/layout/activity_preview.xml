@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PreviewActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Nama Pelanggan :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/namaPelangganTV"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/alamatTV"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="No. Saluran/Gol :"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/nosalTV"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Meteran Awal :"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/meteranAwalTV"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradientbtnbiru"
+        android:text="Lanjut >>"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

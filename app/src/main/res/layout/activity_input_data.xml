@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    android:orientation="vertical"
+    tools:context=".InputDataActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Meteran Akhir :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/newMeterET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:textColor="#000000"
+                android:hint="Meteran Akhir"
+                android:inputType="phone" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Foto Rumah"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/homeIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="146dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/home" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/takeCameraHome"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                		android:background="@drawable/gradientbtnbiru"
+                        android:layout_marginRight="20dp"
+                        android:text="Take Camera" />
+
+                    <Button
+                        android:id="@+id/clearCameraHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="5dp"
+                		android:background="@drawable/gradientbtnmerah"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Clear" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Foto Meteran"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/MeteranIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="146dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/keyboard" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/takeCameraMeteran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginBottom="5dp"
+                		android:background="@drawable/gradientbtnbiru"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Take Camera" />
+
+                    <Button
+                        android:id="@+id/clearCameraMeteran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ffffff"
+                		android:background="@drawable/gradientbtnmerah"
+                        android:layout_marginRight="20dp"
+                        android:text="Clear" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Status :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <Spinner
+                android:id="@+id/statusSpinner"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+          <TextView
+                android:id="@+id/textView322"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:text="Keterangan :"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/keteranganET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Keterangan"
+                android:inputType="textPersonName" >
+            </EditText>
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/gradientbtnbiru"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
